@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>长期招聘海报</title>
+  <style>
+    /* 通用样式重置和字体设置 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Microsoft YaHei", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffffff 20%, #ffc1e3 90%);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .poster-container {
+      max-width: 800px;
+      width: 100%;
+      background-color: rgba(255,255,255,0.85);
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      padding: 40px;
+      text-align: center;
+      backdrop-filter: blur(5px);
+    }
+
+    /* 海报标题 */
+    .poster-title {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    /* 招聘企业信息 */
+    .company-info {
+      margin: 20px 0;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    /* 岗位列表 */
+    .job-list {
+      margin: 30px 0;
+    }
+
+    .job-list h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .job {
+      font-size: 1.2em;
+      margin: 10px 0;
+      font-weight: normal;
+      line-height: 1.6;
+    }
+
+    /* 联系方式 */
+    .contact-info {
+      margin-top: 30px;
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    .contact-email {
+      font-weight: bold;
+      text-decoration: underline;
+      word-break: break-all; /* 如果邮箱过长可自动换行 */
+    }
+
+    /* 底部版权或说明可视情况添加 */
+    .footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="poster-container">
+    <div class="poster-title">长期招聘</div>
+    <p class="company-info">
+      招聘企业：日本公司 Setbot Ltd &amp; 中国公司 Kuliku Media Ltd<br>
+      工作地点：曼谷格乐大学附近
+    </p>
+
+    <div class="job-list">
+      <h2>招聘岗位</h2>
+      <div class="job">1. 社交媒体编辑师 / Social Media Editor</div>
+      <div class="job">2. 程序员 / Software Developer</div>
+      <div class="job">3. 新媒体培训课程讲师 / New Media Training Course Instructor</div>
+    </div>
+
+    <div class="contact-info">
+      如有意向，欢迎通过电子邮件联系我们：<br>
+      <span class="contact-email">feiwangthai@gmail.com</span>
+    </div>
+
+    <div class="footer">
+      本招聘启示长期有效，期待你的加入！
+    </div>
+  </div>
+</body>
+</html>
